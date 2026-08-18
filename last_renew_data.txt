@@ -1,4 +1,27 @@
 Server ID: Unknown
 Renew status: Failed
-Last renewal time: 2026-08-18 10:13:41
-Error: An error occurred: Unable to login to dashboard
+Last renewal time: 2026-08-18 11:13:19
+Error: An error occurred: Message: session not created
+from chrome not reachable
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff718458935+14ce5]
+	chromedriver!GetHandleVerifier [0x7ff718458990+14d40]
+	chromedriver!(No symbol) [0x7ff717f858e6]
+	chromedriver!(No symbol) [0x7ff717f7635a]
+	chromedriver!(No symbol) [0x7ff717fce4fb]
+	chromedriver!(No symbol) [0x7ff717fc8a73]
+	chromedriver!(No symbol) [0x7ff717fc370f]
+	chromedriver!(No symbol) [0x7ff718017721]
+	chromedriver!(No symbol) [0x7ff718016f86]
+	chromedriver!(No symbol) [0x7ff717fd308c]
+	chromedriver!(No symbol) [0x7ff717fd3fb3]
+	chromedriver!GetHandleVerifier [0x7ff718a8e5fb+64a9ab]
+	chromedriver!GetHandleVerifier [0x7ff718a88b02+644eb2]
+	chromedriver!GetHandleVerifier [0x7ff718aae39e+66a74e]
+	chromedriver!GetHandleVerifier [0x7ff718475d6e+3211e]
+	chromedriver!GetHandleVerifier [0x7ff71847e51c+3a8cc]
+	chromedriver!GetHandleVerifier [0x7ff718462844+1ebf4]
+	chromedriver!GetHandleVerifier [0x7ff7184629d4+1ed84]
+	chromedriver!GetHandleVerifier [0x7ff718445d07+20b7]
+	KERNEL32!BaseThreadInitThunk [0x7ffe92c5e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffe94cac53c+2c]
