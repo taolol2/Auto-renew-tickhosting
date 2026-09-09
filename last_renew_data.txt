@@ -1,4 +1,27 @@
 Server ID: Unknown
 Renew status: Failed
-Last renewal time: 2026-09-08 22:04:05
-Error: An error occurred: Unable to login to dashboard
+Last renewal time: 2026-09-09 00:43:25
+Error: An error occurred: Message: session not created: This version of ChromeDriver only supports Chrome version 151
+Current browser version is 153.0.8010.36 with binary path C:\Users\runneradmin\.cache\selenium\chrome\win64\153.0.8010.36\chrome.exe
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6d368abb5+151b5]
+	chromedriver!GetHandleVerifier [0x7ff6d368ac10+15210]
+	chromedriver!(No symbol) [0x7ff6d31b5d6d]
+	chromedriver!(No symbol) [0x7ff6d320015d]
+	chromedriver!(No symbol) [0x7ff6d31feeb5]
+	chromedriver!(No symbol) [0x7ff6d31f91b7]
+	chromedriver!(No symbol) [0x7ff6d31f3e4f]
+	chromedriver!(No symbol) [0x7ff6d3247e81]
+	chromedriver!(No symbol) [0x7ff6d32476e6]
+	chromedriver!(No symbol) [0x7ff6d32037cc]
+	chromedriver!(No symbol) [0x7ff6d32046f3]
+	chromedriver!GetHandleVerifier [0x7ff6d3cab79b+635d9b]
+	chromedriver!GetHandleVerifier [0x7ff6d3ca5ac6+6300c6]
+	chromedriver!GetHandleVerifier [0x7ff6d3ccbcee+6562ee]
+	chromedriver!GetHandleVerifier [0x7ff6d36a8ffe+335fe]
+	chromedriver!GetHandleVerifier [0x7ff6d36b147c+3ba7c]
+	chromedriver!GetHandleVerifier [0x7ff6d3694d64+1f364]
+	chromedriver!GetHandleVerifier [0x7ff6d3694ef4+1f4f4]
+	chromedriver!GetHandleVerifier [0x7ff6d3677d97+2397]
+	KERNEL32!BaseThreadInitThunk [0x7ffd8b41e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffd8bfcc53c+2c]
